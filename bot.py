@@ -5,7 +5,6 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 
 # Configure the Google Generative AI API using an environment variable
 genai.configure(api_key=os.getenv('API_KEY'))
-# genai.configure(api_key='AIzaSyDvWEQ5CJzphQ-Ot1mqKMc_ZnEb9P5V-os')
 
 # Initialize the Gemini Generative Model
 model = genai.GenerativeModel("gemini-1.5-flash")

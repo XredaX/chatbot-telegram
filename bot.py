@@ -11,7 +11,6 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Replace with your Telegram bot token
 TELEGRAM_BOT_TOKEN = os.getenv('BOT_TOKEN')
-# TELEGRAM_BOT_TOKEN = '7340913019:AAECZp3me8sUs3PhGAWOQoFsOwgeu3WsWcY'
 
 # Dictionary to store conversation history for each user
 conversation_history = {}
